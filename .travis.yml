@@ -1,5 +1,5 @@
 arch: ppc64le
-compiler: /opt/at14.0/bin/gcc
-dist: xenial
+#compiler: /opt/at14.0/bin/gcc
+dist: bionic
 script: ls -l /opt/
 
