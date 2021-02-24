@@ -1,0 +1,11 @@
+arch: ppc64le
+#compiler: /opt/at14.0/bin/gcc
+
+include:
+  jobs:
+    - dist: xenial
+      script: ls -l /opt/
+    - dist: bionic
+      script: ls -l /opt/
+    - dist: focal
+      script: ls -l /opt/
