@@ -2,10 +2,6 @@ arch: ppc64le
 
 matrix:
   include:
-    - name: "linux-ppc64le-xenial"
-      os: linux
-      dist: xenial
-      arch: ppc64le
     - name: "linux-ppc64le-bionic"
       os: linux
       dist: bionic
