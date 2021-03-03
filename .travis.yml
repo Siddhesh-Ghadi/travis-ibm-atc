@@ -16,5 +16,6 @@ matrix:
       arch: ppc64le
 
 script:
+  - sudo apt update
+  - sudo apt-get -y install advance-toolchain-at14.0-devel
   - /opt/at*/bin/gcc --version
-  - ls -lR /opt/at*
