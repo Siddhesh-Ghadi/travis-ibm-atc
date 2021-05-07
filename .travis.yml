@@ -1,7 +1,5 @@
 arch: ppc64le
 
-group: edge
-
 matrix:
   include:
     - name: "linux-ppc64le-xenial"
